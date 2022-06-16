@@ -11,6 +11,12 @@ h1 {
     border-radius: 30px;
 }
 
+h3 {
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    font-size: 32px;
+}
+
 .myclass {
     color: goldenrod;
     font-size: 36px;
@@ -58,4 +64,34 @@ li:hover {
     align-items: center;
     justify-content: space-around;
     background-position: fixed;
+}
+
+.section-programming {
+    background-color:green ;
+    display: flex;
+    padding: 30px 400px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.programming-img {
+    max-width: 40%;
+}
+
+.programming-text {
+    max-width: 60%;
+    color: white;
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+}
+
+.about-me {
+    display: flex;
+    justify-content: center;
+}
+h2 {
+    color: white;
+    background-color: green;
+    padding: 10px;
 }
